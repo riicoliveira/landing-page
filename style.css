@@ -341,18 +341,14 @@ nav {
     cursor: pointer;
   }
 
-  .sign__up {
-    color: var(--text-dark);
-    background-color: transparent;
-  }
-
-  .sign__up:hover {
-    color: var(--primary-color);
-  }
-
   .sign__in {
     color: var(--white);
     background-color: var(--primary-color);
+  }
+
+  .sign__in a {
+    text-decoration: none;
+    color: var(--white);
   }
 
   .sign__in:hover {
