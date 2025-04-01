@@ -91,15 +91,7 @@ nav {
 }
 
 .nav__btns {
-  transform: translateY(-53px);
-  margin-left: 55vw;
-}
-
-.btn.sign__in {
-  border: 2px solid var(--white);
-  border-radius: 5px;
-  padding: 8px;
-  background: transparent;
+  display: none;
 }
 
 .btn.sign__in a {
@@ -396,6 +388,10 @@ nav {
 
   .header__content :is(h1, p, .bar) {
     text-align: left;
+  }
+
+  .login_oculto {
+    display: none;
   }
 }
 
