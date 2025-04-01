@@ -91,7 +91,19 @@ nav {
 }
 
 .nav__btns {
-  display: none;
+  transform: translateY(-53px);
+  margin-left: 55vw;
+}
+
+.btn.sign__in {
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  padding: 8px;
+  background: transparent;
+}
+
+.btn.sign__in a {
+  color: white;
 }
 
 .header__container {
